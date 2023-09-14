@@ -58,14 +58,22 @@ function Ejercicio6B()
 {
     const id = document.getElementById('resultado6B');
 
-    let guion;
+    let guion = ["- ", "- ", "- ", "- ", "- ", "- ", "- ", "- ", "- "];
+    let contadorEstrellas = 1
+    let contadorGuion = 8;
 
     for(i=1; i<=5; i++)
     {
-        guion += "-".repeat(5-i);
+        for(const indice of guion)
+        {
+            if()
+            {
+
+            }
+        }            
     }
 
-    id.innerHTML = (guion);
+    
 }
 
 function Ejercicio7()
