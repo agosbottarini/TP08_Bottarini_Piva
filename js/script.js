@@ -72,3 +72,22 @@ function Ejercicio7()
 {
     
 }
+
+function Ejercicio8()
+{
+
+
+}
+
+
+function Ejercicio9()
+{
+    const id = document.getElementById("resultado9")
+
+    const textoIngresado = prompt("Ingrese una palabra");
+    const numero = prompt("Ingrese un numero");
+
+    id.innerHTML = textoIngresado.slice(0,numero);
+}
+
+
