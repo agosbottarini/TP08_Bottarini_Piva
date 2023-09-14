@@ -102,7 +102,13 @@ function Ejercicio9()
 
 function Ejercicio10()
 {
-    
-}
+    const id = document.getElementById('resultado10');
+    let elementos = prompt("Ingrese una lista de elementos separados con ','");
+    let resultado = elementos.replaceAll(",", "-");
+    let arrayElementos = resultado.split('-');
 
+    id.innerHTML = (arrayElementos);
+
+
+}
 
