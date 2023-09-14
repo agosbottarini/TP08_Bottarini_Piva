@@ -70,5 +70,9 @@ function Ejercicio6B()
 
 function Ejercicio7()
 {
-    
+    const id = document.getElementById('resultado7');
+    let nombres = prompt("Ingrese una lista de nombres separados con ','");
+    let arrayNombres = nombres.split(',');
+    const resultado = arrayNombres.filter(palabra => palabra.startsWith('A') || palabra.startsWith('a'));
+    id.innerHTML = (resultado);
 }
