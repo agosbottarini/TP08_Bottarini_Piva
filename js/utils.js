@@ -68,3 +68,13 @@ function DobleDeElementos(ArrayNum)
     return ArrayNum;
 }
 
+function RecorrerArray(arrayPedidos)
+{
+    let acum = 0;
+    for(i=0; i < arrayPedidos.length; i++)
+    {
+        let subVector = arrayPedidos[i].split(':');
+        acum += subVector[1];        
+    }
+    return acum;
+}

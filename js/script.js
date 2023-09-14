@@ -105,9 +105,15 @@ function Ejercicio10()
     const id = document.getElementById('resultado10');
     let elementos = prompt("Ingrese una lista de elementos separados con ','");
     id.innerHTML = elementos.replaceAll(",", "-");
-
-   
-
-
 }
 
+function Ejercicio11()
+{
+    const id = document.getElementById('resultado11');
+    let pedidos = prompt("Ingrese una lista de pedidos con sus totales [nombre:total]. Ejemplo: 'Pizza:15.50, Hamburguesa:8.75, Bebidas:4.25'");
+
+    let arrayPedidos = pedidos.split(',');
+
+    let total = RecorrerArray(arrayPedidos);
+    id.innerHTML = (total);
+}
