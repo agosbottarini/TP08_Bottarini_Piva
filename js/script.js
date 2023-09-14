@@ -100,4 +100,9 @@ function Ejercicio9()
     id.innerHTML = textoIngresado.slice(0,numero);
 }
 
+function Ejercicio10()
+{
+    
+}
+
 
