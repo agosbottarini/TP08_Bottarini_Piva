@@ -79,8 +79,14 @@ function Ejercicio7()
 
 function Ejercicio8()
 {
+    const id = document.getElementById("resultado8");
+    
+    const textoIngresado = prompt("Ingrese una oracion");
+    const palabraARemplazar = prompt("Ingrese una palabra de la oracion anterior para reemplazar")
+    const palabraDeRemplazo = prompt("Ingrese la palabra para remplazar");
 
-
+    id.innerHTML = textoIngresado.replace(palabraARemplazar, palabraDeRemplazo);
+    
 }
 
 
