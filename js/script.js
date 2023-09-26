@@ -61,15 +61,6 @@ function Ejercicio6B()
     let guion = ["- ", "- ", "- ", "- ", "- ", "- ", "- ", "- ", "- "];
     let contadorEstrellas = 1
     let contadorGuion = 8;
-
-    for(i=1; i<=5; i++)
-    {
-        for(const indice of guion)
-        {
-        
-        }            
-    }
-
     
 }
 
