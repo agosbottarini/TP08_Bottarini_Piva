@@ -66,10 +66,7 @@ function Ejercicio6B()
     {
         for(const indice of guion)
         {
-            if()
-            {
-
-            }
+        
         }            
     }
 
